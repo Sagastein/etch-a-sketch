@@ -85,7 +85,7 @@ function paintBainBow() {
 }
 
 function paintGrayScale(color) {
-  if (!color.includes("rgba")) return `rgba(0, 0, 0, 0.1)`;
+  if (!color.includes("rgba")) return `rgba(0, 150, 0, 1)`;
 
   let opacity = Number(color.slice(-4, -1));
 
